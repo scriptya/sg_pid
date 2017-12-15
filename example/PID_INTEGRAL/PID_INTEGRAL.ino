@@ -40,7 +40,7 @@ void setup() {
 void loop() {
   int valSensor = random(-20, 20);
   balancing.readSensor(valSensor);
-  
+
   Serial.print(valSensor); Serial.print("\t");
   balancing.calc();
 
