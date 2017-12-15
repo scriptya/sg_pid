@@ -4,7 +4,7 @@
    dont use Ki if you use integral mode
   SCRIPTGALIH PID v0.01
   created by
-  2017 Galih Setyawan
+  2017 Galih Setyawan https://github.com/scriptya
 
   how to use?
   .param(Kp, Ki, Kd, MODE); NORMAL or INTEGRAL
