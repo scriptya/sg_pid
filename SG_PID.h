@@ -108,11 +108,12 @@ class pid {
           if (outPID >= maxOut) {
             outPID = maxOut;
             integralE -= e;
-          } else if (outPID < minOut) {
+          } else if (outPID <= minOut) {
             outPID = minOut;
-            integralE += e;
+            integralE -= e;
           }
         }
+		//Serial.print(integralE);Serial.print("\t");
 
         return outPID;
       }
