@@ -1,30 +1,33 @@
+#PID LIBRARY
+
 SCRIPTGALIH PID v0.01
 
-created by
+## Getting Started
 
-2017 Galih Setyawan
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-how to use?
+## how to use?
 
-.param(Kp, Ki, Kd, MODE); NORMAL or INTEGRAL
+*param(Kp, Ki, Kd, MODE); NORMAL or INTEGRAL
+*constraint(min output PID, max output PID);
+*setPoint(set point PID);
+*readSensor(value of output);
+*timeSampling(time sampling in ms);
+*showParam(); <- this function just for print parameter (Kp,Ki,Kd,TimeSampling,mode)
+*showUnitPID(); <- print output P, I, and D
 
-.constraint(min output PID, max output PID);
+## Warning !
 
-.setPoint(set point PID);
+```
+for optimal process, do not use delay()
+```
 
-.readSensor(value of output);
+## Authors
 
-.timeSampling(time sampling in ms);
-
-.showParam(); <- print parameter (Kp,Ki,Kd,TimeSampling,mode)
-
-.showUnitPID(); <- print output P, I, and D
-
-don't use delay()!
-
-Contact us : scriptgalih@gmail.com
+* **Galih Setyawan** - *Initial work* - [scriptya](https://github.com/scriptya)
 
 
-Universitas Gadjah Mada
+## Acknowledgments
 
-Yogyakarta
+* M. Arrofiq, S.T., M.T., Ph.D.
+* Universitas Gadjah mada
