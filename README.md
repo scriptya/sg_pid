@@ -1,4 +1,4 @@
-#PID LIBRARY
+# PID LIBRARY
 
 SCRIPTGALIH PID v0.01
 
@@ -8,13 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## how to use?
 
-*param(Kp, Ki, Kd, MODE); NORMAL or INTEGRAL
-*constraint(min output PID, max output PID);
-*setPoint(set point PID);
-*readSensor(value of output);
-*timeSampling(time sampling in ms);
-*showParam(); <- this function just for print parameter (Kp,Ki,Kd,TimeSampling,mode)
-*showUnitPID(); <- print output P, I, and D
+* param(Kp, Ki, Kd, MODE); NORMAL or INTEGRAL
+* constraint(min output PID, max output PID);
+* setPoint(set point PID);
+* readSensor(value of output);
+* timeSampling(time sampling in ms);
+* showParam(); <- this function just for print parameter (Kp,Ki,Kd,TimeSampling,mode)
+* showUnitPID(); <- print output P, I, and D
 
 ## Warning !
 
